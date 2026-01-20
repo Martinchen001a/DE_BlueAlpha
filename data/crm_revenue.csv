@@ -1,0 +1,86 @@
+order_id,customer_id,order_date,revenue,channel_attributed,campaign_source,product_category,region
+ORD-10001,CUST-5234,2024-01-01,125.50,google,goog_camp_002,Electronics,North America
+ORD-10002,CUST-8921,2024-01-01,89.99,facebook,fb_camp_002,Apparel,Europe
+ORD-10003,CUST-3456,01/01/2024,234.00,google,goog_camp_001,Home & Garden,North America
+ORD-10004,CUST-7823,2024-01-01,67.50,facebook,fb_camp_001,Apparel,North America
+ORD-10005,CUST-2341,2024-01-01,445.00,google,goog_camp_002,Electronics,Europe
+ORD-10006,CUST-9012,2024-01-02,178.25,facebook,fb_camp_002,Home & Garden,North America
+ORD-10007,CUST-4567,2024-01-02,56.00,google,goog_camp_003,Apparel,Asia Pacific
+ORD-10008,CUST-6789,2024-01-02,,facebook,fb_camp_001,Electronics,North America
+ORD-10009,CUST-1234,2024-01-02,312.75,google,goog_camp_002,Electronics,Europe
+ORD-10010,CUST-8456,2024-01-02,89.00,facebook,fb_camp_002,Apparel,North America
+ORD-10011,CUST-2345,2024-01-03,156.50,Google,goog_camp_001,Home & Garden,North America
+ORD-10012,CUST-7890,2024-01-03,78.25,FACEBOOK,fb_camp_003,Apparel,Europe
+ORD-10013,CUST-3456,2024-01-03,234.00,google,goog_camp_002,Electronics,North America
+ORD-10014,CUST-5678,2024-01-03,445.75,facebook,fb_camp_002,Electronics,Asia Pacific
+ORD-10015,CUST-9123,2024-01-03,67.00,google,goog_camp_003,Apparel,North America
+ORD-10016,CUST-4321,2024-01-04,289.50,facebook,fb_camp_001,Home & Garden,Europe
+ORD-10017,CUST-8765,2024-01-04,134.25,google,goog_camp_002,Apparel,North America
+ORD-10018,CUST-2109,2024-01-04,567.00,facebook,fb_camp_002,Electronics,North America
+ORD-10019,CUST-6543,January 4, 2024,98.75,google,goog_camp_001,Apparel,Asia Pacific
+ORD-10020,CUST-1098,2024-01-04,223.50,facebook,fb_camp_003,Home & Garden,Europe
+ORD-10021,CUST-5432,2024-01-05,178.00,google,goog_camp_002,Electronics,North America
+ORD-10022,CUST-9876,2024-01-05,45.50,facebook,fb_camp_001,Apparel,North America
+ORD-10023,CUST-3210,2024-01-05,334.25,google,goog_camp_003,Home & Garden,Europe
+ORD-10024,CUST-7654,2024-01-05,89.00,facebook,fb_camp_002,Apparel,Asia Pacific
+ORD-10025,CUST-2109,2024-01-05,156.75,google,goog_camp_002,Electronics,North America
+ORD-10021,CUST-5432,2024-01-05,178.00,google,goog_camp_002,Electronics,North America
+ORD-10026,CUST-6543,2024-01-06,267.50,facebook,fb_camp_001,Home & Garden,Europe
+ORD-10027,CUST-1098,2024-01-06,78.25,google,goog_camp_001,Apparel,North America
+ORD-10028,CUST-5432,2024-01-06,412.00,facebook,fb_camp_002,Electronics,North America
+ORD-10029,CUST-9876,2024-01-06,56.50,google,goog_camp_003,Apparel,Asia Pacific
+ORD-10030,,2024-01-06,189.75,facebook,fb_camp_003,Home & Garden,Europe
+ORD-10031,CUST-7654,2024-01-07,145.00,google,goog_camp_002,Electronics,North America
+ORD-10032,CUST-2109,2024-01-07,234.50,facebook,fb_camp_001,Apparel,Europe
+ORD-10033,CUST-6543,2024-01-07,89.25,google,goog_camp_001,Home & Garden,North America
+ORD-10034,CUST-1098,2024-01-07,356.00,facebook,fb_camp_002,Electronics,Asia Pacific
+ORD-10035,CUST-5432,2024-01-07,67.75,google,goog_camp_003,Apparel,North America
+ORD-10036,CUST-9876,2024-01-08,478.50,facebook,fb_camp_001,Electronics,Europe
+ORD-10037,CUST-3210,2024-01-08,123.25,google,goog_camp_002,Apparel,North America
+ORD-10038,CUST-7654,2024-01-08,256.00,facebook,fb_camp_002,Home & Garden,North America
+ORD-10039,CUST-2109,08/01/2024,89.75,google,goog_camp_001,Apparel,Asia Pacific
+ORD-10040,CUST-6543,2024-01-08,534.50,facebook,fb_camp_003,Electronics,Europe
+ORD-10041,CUST-1098,2024-01-09,167.00,google,goog_camp_002,Home & Garden,North America
+ORD-10042,CUST-5432,2024-01-09,78.50,facebook,fb_camp_001,Apparel,North America
+ORD-10043,CUST-9876,2024-01-09,423.25,google,goog_camp_003,Electronics,Europe
+ORD-10044,CUST-3210,2024-01-09,56.00,facebook,fb_camp_002,Apparel,Asia Pacific
+ORD-10045,CUST-7654,2024-01-09,289.75,google,goog_camp_002,Home & Garden,North America
+ORD-10046,CUST-2109,2024-01-10,134.50,facebook,fb_camp_001,Electronics,Europe
+ORD-10047,CUST-6543,2024-01-10,456.25,google,goog_camp_001,Apparel,North America
+ORD-10048,CUST-1098,2024-01-10,67.00,facebook,fb_camp_002,Home & Garden,Asia Pacific
+ORD-10049,CUST-5432,2024-01-10,312.75,google,goog_camp_003,Electronics,North America
+ORD-10050,CUST-9876,2024-01-10,89.50,facebook,fb_camp_003,Apparel,Europe
+ORD-10051,CUST-3210,2024-01-11,178.25,google,goog_camp_002,Home & Garden,North America
+ORD-10052,CUST-7654,2024-01-11,534.00,facebook,fb_camp_001,Electronics,North America
+ORD-10053,CUST-2109,2024-01-11,45.75,google,goog_camp_001,Apparel,Europe
+ORD-10054,CUST-6543,2024-01-11,267.50,facebook,fb_camp_002,Home & Garden,Asia Pacific
+ORD-10055,CUST-1098,2024-01-11,156.00,google,goog_camp_003,Electronics,North America
+ORD-10056,CUST-5432,2024-01-12,389.25,facebook,fb_camp_001,Apparel,Europe
+ORD-10057,CUST-9876,2024-01-12,78.50,google,goog_camp_002,Home & Garden,North America
+ORD-10058,CUST-3210,2024-01-12,423.00,facebook,fb_camp_002,Electronics,North America
+ORD-10059,CUST-7654,2024-01-12,56.75,google,goog_camp_001,Apparel,Asia Pacific
+ORD-10060,CUST-2109,2024-01-12,234.50,facebook,fb_camp_003,Home & Garden,Europe
+ORD-10056,CUST-5432,2024-01-12,389.25,facebook,fb_camp_001,Apparel,Europe
+ORD-10061,CUST-6543,2024-01-13,167.25,google,goog_camp_002,Electronics,North America
+ORD-10062,CUST-1098,2024-01-13,89.00,facebook,fb_camp_001,Apparel,North America
+ORD-10063,CUST-5432,2024-01-13,512.50,google,goog_camp_003,Home & Garden,Europe
+ORD-10064,CUST-9876,2024-01-13,45.75,facebook,fb_camp_002,Apparel,Asia Pacific
+ORD-10065,CUST-3210,2024-01-13,278.00,google,goog_camp_002,Electronics,North America
+ORD-10066,CUST-7654,2024-01-14,134.50,facebook,fb_camp_001,Home & Garden,Europe
+ORD-10067,CUST-2109,2024-01-14,456.25,google,goog_camp_001,Electronics,North America
+ORD-10068,CUST-6543,2024-01-14,67.00,facebook,fb_camp_002,Apparel,North America
+ORD-10069,CUST-1098,2024-01-14,323.75,google,goog_camp_003,Home & Garden,Asia Pacific
+ORD-10070,CUST-5432,2024-01-14,89.50,facebook,fb_camp_003,Apparel,Europe
+ORD-10071,CUST-9876,2024-01-15,567.00,google,goog_camp_002,Electronics,North America
+ORD-10072,CUST-3210,2024-01-15,145.25,facebook,fb_camp_001,Apparel,North America
+ORD-10073,CUST-7654,2024-01-15,234.50,google,goog_camp_001,Home & Garden,Europe
+ORD-10074,CUST-2109,2024-01-15,78.00,facebook,fb_camp_002,Apparel,Asia Pacific
+ORD-10075,CUST-6543,2024-01-15,412.75,google,goog_camp_003,Electronics,North America
+ORD-10076,CUST-1098,2024-01-15,-50.00,facebook,fb_camp_001,Apparel,Europe
+ORD-10077,CUST-5432,2024-01-15,289.50,google,goog_camp_002,Home & Garden,North America
+ORD-10078,CUST-9876,2024-01-15,156.25,facebook,fb_camp_002,Electronics,North America
+ORD-10079,CUST-3210,2024-01-15,534.00,google,goog_camp_001,Apparel,Asia Pacific
+ORD-10080,CUST-7654,15/01/2024,67.75,facebook,fb_camp_003,Home & Garden,Europe
+ORD-10081,CUST-2109,2024-01-15,9999999.99,google,,Electronics,North America
+ORD-10082,CUST-6543,2024-01-15,178.50,facebook,fb_camp_001,Apparel,North America
+ORD-10071,CUST-9876,2024-01-15,567.00,google,goog_camp_002,Electronics,North America

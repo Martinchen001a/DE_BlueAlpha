@@ -1,0 +1,79 @@
+{
+  "report_type": "CAMPAIGN_PERFORMANCE",
+  "account_id": "123-456-7890",
+  "date_range": {
+    "start_date": "2024-01-01",
+    "end_date": "2024-01-31"
+  },
+  "campaigns": [
+    {
+      "campaign_id": "goog_camp_001",
+      "campaign_name": "Brand Awareness - Q1",
+      "campaign_type": "DISPLAY",
+      "status": "ENABLED",
+      "daily_metrics": [
+        {"date": "2024-01-01", "impressions": 45230, "clicks": 892, "cost_micros": 125340000, "conversions": 23, "conversion_value": 2875.50},
+        {"date": "2024-01-02", "impressions": 48120, "clicks": 956, "cost_micros": 134560000, "conversions": 28, "conversion_value": 3520.00},
+        {"date": "2024-01-03", "impressions": 42890, "clicks": 834, "cost_micros": 118230000, "conversions": 19, "conversion_value": 2280.00},
+        {"date": "2024-01-04", "impressions": 51230, "clicks": 1023, "cost_micros": 145670000, "conversions": 31, "conversion_value": 3875.25},
+        {"date": "2024-01-05", "impressions": 38920, "clicks": 756, "cost_micros": 108450000, "conversions": 17, "conversion_value": 1955.00},
+        {"date": "2024-01-06", "impressions": 29340, "clicks": 567, "cost_micros": 78230000, "conversions": 12, "conversion_value": 1440.00},
+        {"date": "2024-01-07", "impressions": 31250, "clicks": 612, "cost_micros": 85670000, "conversions": 14, "conversion_value": 1680.00},
+        {"date": "2024-01-08", "impressions": 47890, "clicks": 945, "cost_micros": 132450000, "conversions": 26, "conversion_value": 3120.00},
+        {"date": "2024-01-09", "impressions": 52340, "clicks": 1067, "cost_micros": 149870000, "conversions": 33, "conversion_value": 4125.75},
+        {"date": "2024-01-10", "impressions": 49120, "clicks": 978, "cost_micros": 138920000, "conversions": 29, "conversion_value": 3625.00},
+        {"date": "2024-01-11", "impressions": 46780, "clicks": 923, "cost_micros": 129340000, "conversions": 25, "conversion_value": 3000.00},
+        {"date": "2024-01-12", "impressions": 44560, "clicks": 878, "cost_micros": 123450000, "conversions": 22, "conversion_value": 2640.00},
+        {"date": "2024-01-13", "impressions": 28970, "clicks": 545, "cost_micros": 75230000, "conversions": 11, "conversion_value": 1320.00},
+        {"date": "2024-01-14", "impressions": 30120, "clicks": 589, "cost_micros": 82340000, "conversions": 13, "conversion_value": 1560.00},
+        {"date": "2024-01-15", "impressions": 53240, "clicks": 1089, "cost_micros": 152340000, "conversions": 35, "conversion_value": 4375.00}
+      ]
+    },
+    {
+      "campaign_id": "goog_camp_002",
+      "campaign_name": "Product Launch - Winter Sale",
+      "campaign_type": "SEARCH",
+      "status": "ENABLED",
+      "daily_metrics": [
+        {"date": "2024-01-01", "impressions": 12340, "clicks": 1456, "cost_micros": 234560000, "conversions": 89, "conversion_value": 12450.00},
+        {"date": "2024-01-02", "impressions": 13450, "clicks": 1589, "cost_micros": 256780000, "conversions": 97, "conversion_value": 13580.00},
+        {"date": "2024-01-03", "impressions": 11890, "clicks": 1398, "cost_micros": 225340000, "conversions": 82, "conversion_value": 11480.00},
+        {"date": "2024-01-04", "impressions": 14230, "clicks": 1678, "cost_micros": 271230000, "conversions": 103, "conversion_value": 14420.00},
+        {"date": "2024-01-05", "impressions": 10890, "clicks": 1278, "cost_micros": 205670000, "conversions": 74, "conversion_value": 10360.00},
+        {"date": "2024-01-06", "impressions": 8920, "clicks": 1045, "cost_micros": 168230000, "conversions": 58, "conversion_value": 8120.00},
+        {"date": "2024-01-07", "impressions": 9340, "clicks": 1098, "cost_micros": 177450000, "conversions": 63, "conversion_value": 8820.00},
+        {"date": "2024-01-08", "impressions": 13780, "clicks": 1623, "cost_micros": 262340000, "conversions": 99, "conversion_value": 13860.00},
+        {"date": "2024-01-09", "impressions": 15120, "clicks": 1789, "cost_micros": 289450000, "conversions": 112, "conversion_value": 15680.00},
+        {"date": "2024-01-10", "impressions": 14560, "clicks": 1712, "cost_micros": 276780000, "conversions": 105, "conversion_value": 14700.00},
+        {"date": "2024-01-11", "impressions": 13890, "clicks": 1634, "cost_micros": 264230000, "conversions": 98, "conversion_value": 13720.00},
+        {"date": "2024-01-12", "impressions": 12780, "clicks": 1502, "cost_micros": 242560000, "conversions": 89, "conversion_value": 12460.00},
+        {"date": "2024-01-13", "impressions": 8560, "clicks": 1006, "cost_micros": 162340000, "conversions": 55, "conversion_value": 7700.00},
+        {"date": "2024-01-14", "impressions": 8980, "clicks": 1056, "cost_micros": 170450000, "conversions": 59, "conversion_value": 8260.00},
+        {"date": "2024-01-15", "impressions": 15890, "clicks": 1876, "cost_micros": 303450000, "conversions": 118, "conversion_value": 16520.00}
+      ]
+    },
+    {
+      "campaign_id": "goog_camp_003",
+      "campaign_name": "Retargeting - Cart Abandoners",
+      "campaign_type": "DISPLAY",
+      "status": "ENABLED",
+      "daily_metrics": [
+        {"date": "2024-01-01", "impressions": 23450, "clicks": 567, "cost_micros": 78230000, "conversions": 45, "conversion_value": 5625.00},
+        {"date": "2024-01-02", "impressions": 25670, "clicks": 623, "cost_micros": 85670000, "conversions": 52, "conversion_value": 6500.00},
+        {"date": "2024-01-03", "impressions": 22340, "clicks": 534, "cost_micros": 73450000, "conversions": 41, "conversion_value": 5125.00},
+        {"date": "2024-01-04", "impressions": 27890, "clicks": 678, "cost_micros": 93230000, "conversions": 58, "conversion_value": 7250.00},
+        {"date": "2024-01-05", "impressions": 20120, "clicks": 478, "cost_micros": 65670000, "conversions": 35, "conversion_value": 4375.00},
+        {"date": "2024-01-06", "impressions": 15670, "clicks": 367, "cost_micros": 50230000, "conversions": 26, "conversion_value": 3250.00},
+        {"date": "2024-01-07", "impressions": 16890, "clicks": 398, "cost_micros": 54670000, "conversions": 29, "conversion_value": 3625.00},
+        {"date": "2024-01-08", "impressions": 26340, "clicks": 639, "cost_micros": 87890000, "conversions": 54, "conversion_value": 6750.00},
+        {"date": "2024-01-09", "impressions": 29120, "clicks": 712, "cost_micros": 97890000, "conversions": 62, "conversion_value": 7750.00},
+        {"date": "2024-01-10", "impressions": 27560, "clicks": 668, "cost_micros": 91780000, "conversions": 56, "conversion_value": 7000.00},
+        {"date": "2024-01-11", "impressions": 25890, "clicks": 627, "cost_micros": 86230000, "conversions": 51, "conversion_value": 6375.00},
+        {"date": "2024-01-12", "impressions": 24230, "clicks": 584, "cost_micros": 80120000, "conversions": 47, "conversion_value": 5875.00},
+        {"date": "2024-01-13", "impressions": 15120, "clicks": 356, "cost_micros": 48670000, "conversions": 25, "conversion_value": 3125.00},
+        {"date": "2024-01-14", "impressions": 16230, "clicks": 385, "cost_micros": 52890000, "conversions": 28, "conversion_value": 3500.00},
+        {"date": "2024-01-15", "impressions": 30450, "clicks": 745, "cost_micros": 102340000, "conversions": 65, "conversion_value": 8125.00}
+      ]
+    }
+  ]
+}

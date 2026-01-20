@@ -1,0 +1,46 @@
+campaign_id,campaign_name,date,impressions,clicks,spend,purchases,purchase_value,reach,frequency
+fb_camp_001,Spring Collection Awareness,2024-01-01,78450,1234,145.67,34,4250.00,65000,1.21
+fb_camp_001,Spring Collection Awareness,2024-01-02,82340,1345,156.89,42,5250.00,68000,1.21
+fb_camp_001,Spring Collection Awareness,01/03/2024,76890,1189,138.45,31,3875.00,63500,1.21
+fb_camp_001,Spring Collection Awareness,2024-01-04,89120,1456,167.23,48,6000.00,73500,1.21
+fb_camp_001,Spring Collection Awareness,2024-01-05,71230,1098,129.34,28,3500.00,59000,1.21
+fb_camp_001,Spring Collection Awareness,2024-01-06,52340,798,94.56,19,2375.00,43500,1.20
+fb_camp_001,Spring Collection Awareness,2024-01-07,54670,834,99.12,21,2625.00,45500,1.20
+fb_camp_001,Spring Collection Awareness,2024-01-08,84560,1378,159.34,45,5625.00,70000,1.21
+fb_camp_001,Spring Collection Awareness,2024-01-09,91230,1502,175.67,52,6500.00,75500,1.21
+fb_camp_001,Spring Collection Awareness,01-10-2024,87450,1423,163.89,47,5875.00,72500,1.21
+fb_camp_001,Spring Collection Awareness,2024-01-11,83120,1356,155.45,43,5375.00,69000,1.20
+fb_camp_001,Spring Collection Awareness,2024-01-12,79890,1298,149.23,39,4875.00,66500,1.20
+fb_camp_001,Spring Collection Awareness,2024-01-13,51230,778,91.34,,2250.00,42500,1.20
+fb_camp_001,Spring Collection Awareness,2024-01-14,53450,812,95.67,20,2500.00,44500,1.20
+fb_camp_001,Spring Collection Awareness,2024-01-15,93450,1534,179.89,55,6875.00,77500,1.21
+fb_camp_002,Conversion Campaign - Promo,2024-01-01,34560,2345,289.34,156,21840.00,28500,1.21
+fb_camp_002,Conversion Campaign - Promo,2024-01-02,37890,2567,316.78,172,24080.00,31200,1.21
+fb_camp_002,Conversion Campaign - Promo,2024-01-03,32450,2189,269.45,142,19880.00,26800,1.21
+fb_camp_002,Conversion Campaign - Promo,2024-01-04,41230,2789,345.67,189,26460.00,34000,1.21
+fb_camp_002,Conversion Campaign - Promo,2024-01-05,29870,2012,248.23,128,17920.00,24700,1.21
+fb_camp_002,Conversion Campaign - Promo,2024-01-06,23450,1578,194.56,98,13720.00,19400,1.21
+fb_camp_002,Conversion Campaign - Promo,2024/01/07,24890,1678,206.89,105,14700.00,20600,1.21
+fb_camp_002,Conversion Campaign - Promo,2024-01-08,38920,2634,325.45,178,24920.00,32100,1.21
+fb_camp_002,Conversion Campaign - Promo,2024-01-09,43560,2945,364.23,198,27720.00,35900,1.21
+fb_camp_002,Conversion Campaign - Promo,2024-01-10,40120,2712,335.67,182,25480.00,33100,1.21
+fb_camp_002,Conversion Campaign - Promo,2024-01-11,37230,2512,310.45,168,23520.00,30700,1.21
+fb_camp_002,Conversion Campaign - Promo,2024-01-12,35670,2401,296.78,159,22260.00,29400,1.21
+fb_camp_002,Conversion Campaign - Promo,2024-01-13,22340,1502,185.34,93,13020.00,18500,1.21
+fb_camp_002,Conversion Campaign - Promo,2024-01-14,23780,1598,197.23,99,13860.00,19700,1.20
+fb_camp_002,Conversion Campaign - Promo,2024-01-15,45230,3067,378.89,207,28980.00,37300,1.21
+fb_camp_003,Video Views - Brand Story,2024-01-01,123450,890,67.34,8,920.00,98500,1.25
+fb_camp_003,Video Views - Brand Story,2024-01-02,134560,978,73.56,11,1265.00,107500,1.25
+fb_camp_003,Video Views - Brand Story,2024-01-03,118920,812,61.23,6,690.00,95000,1.25
+fb_camp_003,Video Views - Brand Story,2024-01-04,145670,1056,79.89,14,1610.00,116500,1.25
+fb_camp_003,Video Views - Brand Story,2024-01-05,108340,778,58.67,5,575.00,86700,1.25
+fb_camp_003,Video Views - Brand Story,2024-01-06,82340,589,44.23,,345.00,65900,1.25
+fb_camp_003,Video Views - Brand Story,2024-01-07,87890,634,47.89,4,460.00,70300,1.25
+fb_camp_003,Video Views - Brand Story,2024-01-08,138920,1002,75.67,12,1380.00,111100,1.25
+fb_camp_003,Video Views - Brand Story,2024-01-09,152340,1112,83.45,16,1840.00,121900,1.25
+fb_camp_003,Video Views - Brand Story,2024-01-10,143560,1034,77.89,13,1495.00,114800,1.25
+fb_camp_003,Video Views - Brand Story,2024-01-11,135670,978,73.34,10,1150.00,108500,1.25
+fb_camp_003,Video Views - Brand Story,12-Jan-2024,129340,934,70.12,9,1035.00,103500,1.25
+fb_camp_003,Video Views - Brand Story,2024-01-13,79230,567,42.67,2,230.00,63400,1.25
+fb_camp_003,Video Views - Brand Story,2024-01-14,84560,612,46.12,3,345.00,67600,1.25
+fb_camp_003,Video Views - Brand Story,2024-01-15,158920,1156,87.23,18,2070.00,127100,1.25
