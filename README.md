@@ -63,10 +63,10 @@ airflow db init
 airflow users create \
     --username admin \
     --password admin \
-    --firstname Martin \
-    --lastname Chen \
+    --firstname first \
+    --lastname last \
     --role Admin \
-    --email martin@example.com
+    --email email@example.com
 
 ```
 
