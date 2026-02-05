@@ -97,7 +97,7 @@ Once both services are running, visit `http://localhost:8081`, log in with `admi
 ## 📂 Project Structure & Logic
 
 * **`dags/`**: Contains Airflow DAGs with dynamic path detection logic, allowing the project to run regardless of the local file system path.
-* **`data_ingestion/`**: Contains `ingest.py` which cleans and loads raw data from `data/` into Postgres `stg_` tables using SQLAlchemy and the connection string `postgresql://postgres:password@localhost:5433/postgres`.
+* **`data_ingestion/`**: Contains `ingest.py` which loads and cleans raw data from `data/` into Postgres `stg_` tables using SQLAlchemy and the connection string `postgresql://postgres:password@localhost:5433/postgres`.
 * **`dbt_project/`**: The dbt project responsible for transforming raw staged data into analytics-ready models using the Postgres profile.
 * **`data/`**: Storage for raw `crm_revenue.csv`, `facebook_export.csv`, and `google_ads_api.json`.
 
