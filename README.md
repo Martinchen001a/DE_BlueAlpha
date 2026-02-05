@@ -1,4 +1,4 @@
-# Marketing Data Pipeline: Airflow & dbt Orchestration
+# BlueAlpha Data Pipeline: Airflow & dbt Orchestration
 
 This project implements an end-to-end data engineering pipeline. It orchestrates the ingestion of multi-source marketing data (CSV/JSON) into a PostgreSQL database and manages data transformations using dbt.
 
