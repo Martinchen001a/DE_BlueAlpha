@@ -62,7 +62,8 @@ airflow users create \
 
 ### 4. Running the Pipeline
 
-Open two separate terminal tabs. **Note**: You must run `export AIRFLOW_HOME=$(pwd)` in every new session.
+Open two separate terminal tabs. 
+**Note**: You must run `export AIRFLOW_HOME=$(pwd)` in every new session.
 
 * **Terminal 1 (Webserver)**:
 ```bash
