@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: staging_data
+    database: postgres
+    schema: public
+    description: "Raw data loaded via Python"
+    tables:
+      - name: stg_google_ads
+      - name: stg_facebook_ads
+      - name: stg_crm_revenue

@@ -1,0 +1,13 @@
+airflow.db
+airflow.cfg
+webserver_config.py
+logs/
+*.pid
+
+venv/
+.venv/
+__pycache__/
+
+postgres-volume/
+
+.DS_Store

@@ -6,12 +6,16 @@ services:
       POSTGRES_PASSWORD: password
       POSTGRES_DB: local
     ports:
-      - "5432:5432"
+      - "5433:5432"
     volumes:
       - ./postgres-volume/storage/postgres:/var/lib/postgresql/data
-  adminer:
-    image: adminer
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: pgadmin_gui
     environment:
-      ADMINER_DEFAULT_SERVER: postgres
+      PGADMIN_DEFAULT_EMAIL: admin@admin.com
+      PGADMIN_DEFAULT_PASSWORD: password
     ports:
-      - "8080:8080"
+      - "8080:80"
+    depends_on:
+      - postgres

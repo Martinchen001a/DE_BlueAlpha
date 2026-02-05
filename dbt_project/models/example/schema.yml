@@ -1,0 +1,60 @@
+version: 2
+
+models:
+  - name: transform_crm_revenue
+    description: "Cleansed CRM data"
+    columns:
+      - name: order_id
+        tests:
+          - unique
+          - not_null
+  
+      - name: revenue
+        tests:
+          - not_null
+      
+      - name: order_date
+        tests:
+          - not_null
+
+  - name: marketing_master_view
+    description: "Union of all ad platforms"
+    columns:
+      - name: campaign_id
+        tests:
+          - not_null
+
+      - name: platform
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['google', 'facebook']
+
+      - name: impression
+        tests:
+          - not_null
+          - dbt_utils.accepted_range:
+              min_value: 0
+              inclusive: true
+
+      - name: clicks
+        tests:
+          - not_null
+          - dbt_utils.accepted_range:
+              min_value: 0
+              inclusive: true
+
+      - name: spend
+        tests:
+          - not_null
+          - dbt_utils.accepted_range:
+              min_value: 0
+              inclusive: true
+
+      - name: purchase_value
+        tests:
+          - not_null
+          - dbt_utils.accepted_range:
+              min_value: 0
+              inclusive: true
+  
