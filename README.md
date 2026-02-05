@@ -26,7 +26,7 @@ git clone https://github.com/Martinchen001a/DE_BlueAlpha
 cd data-engineer-coding-task
 
 # Create and activate virtual environment
-python3 -m venv .venv
+python3 -m venv .venv(Or python -m venv .venv)
 source .venv/bin/activate
 
 # Install required dependencies
