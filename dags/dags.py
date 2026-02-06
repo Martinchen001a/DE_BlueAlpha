@@ -5,11 +5,10 @@ from datetime import datetime, timedelta
 import os
 
 
-DAG_FOLDER = os.path.dirname(os.path.realpath(__file__))
-PROJECT_ROOT = os.path.abspath(os.path.join(DAG_FOLDER, ".."))
-VENV_PYTHON = f"{PROJECT_ROOT}/.venv/bin/python"
-VENV_DBT = f"{PROJECT_ROOT}/.venv/bin/dbt"
+PROJECT_ROOT = "/opt/airflow"
 DBT_PROJECT_DIR = f"{PROJECT_ROOT}/dbt_project"
+PYTHON_EXEC = "python"
+DBT_EXEC = "dbt"
 
 
 # Set default parameters for "Retry Logic" compliance
@@ -34,7 +33,7 @@ with DAG(
     # Ingestion
     start_ingestion = BashOperator(
         task_id='data_ingestion',
-        bash_command=f'cd {PROJECT_ROOT} && {VENV_PYTHON} {PROJECT_ROOT}/data_ingestion/ingest.py'
+        bash_command=f'{PYTHON_EXEC} {PROJECT_ROOT}/data_ingestion/ingest.py'
     )
 
     # dbt Transformation & Validation
@@ -43,7 +42,8 @@ with DAG(
         bash_command=(
             f'cd {DBT_PROJECT_DIR} && '
             'export DBT_SEND_ANONYMOUS_USAGE_STATS=False && '
-            f'{VENV_DBT} build --profiles-dir .'
+            f'{DBT_EXEC} deps && '
+            f'{DBT_EXEC} build --profiles-dir .'
         )
     )
 

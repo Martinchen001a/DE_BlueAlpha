@@ -1,13 +1,23 @@
-airflow.db
-airflow.cfg
-webserver_config.py
-logs/
-*.pid
-
-venv/
+# Python
 .venv/
 __pycache__/
+*.pyc
 
+# Airflow & Docker
+logs/
+airflow.db
+airflow.cfg
 postgres-volume/
 
+# dbt
+dbt_project/dbt_packages/
+dbt_project/target/
+dbt_project/logs/
+package-lock.yml
+
+# OS
 .DS_Store
+
+*.pid
+dbt_project/venv/
+webserver_config.py
