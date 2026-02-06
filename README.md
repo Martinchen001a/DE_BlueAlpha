@@ -2,6 +2,12 @@
 
 This project implements an end-to-end data engineering pipeline. It orchestrates the ingestion of multi-source marketing data (CSV/JSON) into a PostgreSQL database and manages data transformations using dbt.
 
+
+<p align="center">
+  <img src="chart.png" width="80%" alt="Chart">
+</p>
+
+
 ## 🛠 Tech Stack
 - **Orchestration**: Apache Airflow 2.x
 - **Transformation**: dbt (data build tool)
