@@ -87,6 +87,9 @@ The warehouse follows a **Star Schema** for optimized BI performance:
     * **ACID Transactions**: Ensuring data integrity during concurrent writes and providing "Time Travel" capabilities for historical auditing.
     * **Schema Evolution**: Automatically managing upstream schema changes without breaking the pipeline.
 * **Optimization**: Replace Pandas `to_sql` with PostgreSQL `COPY` command for high-speed bulk loading.
+* **Atomic Upserts (Backfill Robustness)**: Replace the current if_exists='replace' logic with an Incremental Merge strategy using unique_key constraints.
+  * **Idempotency**: Re-running a backfill for a specific date "refreshes" data without creating duplicates.
+  * **Atomicity**: Preventing the table from being left in a partially deleted or broken state.
 * **CI/CD**: Implement GitHub Actions to trigger `dbt test` on Pull Requests to prevent breaking changes.
 * **Advanced Validation**: Cross-source checks (e.g., ensuring Ad Platform `purchase_value` doesn't exceed CRM `total_revenue`).
 * **Alerting**: Configure Airflow Slack/Email callbacks for real-time failure notification.
