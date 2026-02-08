@@ -4,7 +4,7 @@
 
 WITH facebook_data AS (
     SELECT 
-        campaign_id::TEXT,
+        LOWER(TRIM(campaign_id))::TEXT AS campaign_id,
         campaign_name::TEXT,
         'unknown'::TEXT AS campaign_type,
         'facebook'::TEXT AS platform,
@@ -15,14 +15,17 @@ WITH facebook_data AS (
         SUM(purchases)::REAL AS purchases,
         SUM(purchase_value)::REAL AS purchase_value,
         SUM(reach)::BIGINT AS reach,
-        AVG(frequency)::REAL AS frequency
+        ROUND(
+            SUM(COALESCE(impression,0))::numeric / NULLIF(SUM(COALESCE(reach,0)),0),
+            2
+            ) AS avg_frequency
     FROM {{ ref('transform_facebook_ads') }}
     GROUP BY 1, 2, 3, 4, 5
 ),
 
 google_data AS (
     SELECT 
-        campaign_id::TEXT, 
+        LOWER(TRIM(campaign_id))::TEXT AS campaign_id, 
         campaign_name::TEXT,
         campaign_type::TEXT,
         'google'::TEXT AS platform,
@@ -33,7 +36,7 @@ google_data AS (
         SUM(purchases)::REAL AS purchases,
         SUM(purchase_value)::REAL AS purchase_value,
         NULL::BIGINT AS reach,
-        NULL::REAL AS frequency
+        NULL::REAL AS avg_frequency
     FROM {{ ref('transform_google_ads') }}
     GROUP BY 1, 2, 3, 4, 5
 )

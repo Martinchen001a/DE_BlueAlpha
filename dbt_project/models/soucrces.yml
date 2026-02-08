@@ -1,9 +1,9 @@
 version: 2
 
 sources:
-  - name: staging_data
+  - name: stg_data
     database: postgres
-    schema: public
+    schema: stg_data
     description: "Raw data loaded via Python"
     tables:
       - name: stg_google_ads

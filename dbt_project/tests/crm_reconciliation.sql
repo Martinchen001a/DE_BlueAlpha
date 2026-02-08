@@ -1,6 +1,6 @@
 WITH raw_crm AS (
     SELECT revenue, order_id, order_date 
-    FROM {{ source('staging_data', 'stg_crm_revenue') }}
+    FROM {{ source('stg_data', 'stg_crm_revenue') }}
 ),
 cleansed_crm AS (
     SELECT revenue 
@@ -19,9 +19,9 @@ duplicate_rows AS (
 ),
 validation_metrics AS (
     SELECT 
-        (SELECT SUM(revenue) FROM raw_crm) as raw_sum,
-        (SELECT SUM(revenue) FROM cleansed_crm) as cleansed_sum,
-        (SELECT COALESCE(SUM(revenue), 0) FROM duplicate_rows) as total_duplicated_revenue
+        (SELECT SUM(revenue::numeric) FROM raw_crm) as raw_sum,
+        (SELECT SUM(revenue::numeric) FROM cleansed_crm) as cleansed_sum,
+        (SELECT COALESCE(SUM(revenue::numeric), 0) FROM duplicate_rows) as total_duplicated_revenue
 ),
 result AS (
     SELECT 

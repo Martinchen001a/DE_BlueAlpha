@@ -7,16 +7,17 @@ SELECT DISTINCT ON (LOWER(TRIM(order_id)))
     LOWER(TRIM(order_id))::TEXT AS order_id,
 	LOWER(TRIM(customer_id)) AS customer_id,
 	CAST(order_date AS DATE) AS order_date,
-	COALESCE(revenue, 0) AS revenue,
+	revenue::numeric AS revenue,
 	LOWER(TRIM(channel_attributed)) AS channel_attributed,
-	LOWER(TRIM(campaign_source)) AS campaign_source,
+	COALESCE(LOWER(TRIM(campaign_source)), 'organic') AS campaign_source,
 	LOWER(TRIM(product_category)) AS product_category,
 	LOWER(TRIM(region)) AS region,
 	CASE 
-        WHEN revenue >= 1000000 THEN 'revenue outlier'
-        WHEN revenue < 0 THEN 'negative revenue'
-        WHEN customer_id IS NULL THEN 'missing customerid'
+        WHEN revenue::numeric >= 1000000 THEN 'revenue_outlier'
+        WHEN revenue::numeric < 0 THEN 'negative_revenue'
+        WHEN customer_id IS NULL OR revenue::numeric IS NULL THEN 'missing_revenue'
         ELSE 'normal'
-    END AS data_quality_tag
-FROM {{ source('staging_data', 'stg_crm_revenue') }}
+    END AS data_quality_tag,
+	customer_id IS NULL AS has_missing_customer_id
+FROM {{ source('stg_data', 'stg_crm_revenue') }}
 
