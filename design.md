@@ -15,7 +15,7 @@ This project implements an automatic, end-to-end data pipeline orchestrated by *
 | Component | Choice | Rationale | Trade-offs |
 | :--- | :--- | :--- | :--- |
 | **Infrastructure** | **Docker** | Eliminates "it works on my machine" issues; ensures idempotency and portability. | Slight overhead in image management. |
-| **Orchestration** | **Airflow 2.x** | Provides complex DAG dependency management and high observability via Web UI. | Requires more resources than simple Cron jobs. |
+| **Orchestration** | **Airflow** | Provides complex DAG dependency management and high observability via Web UI. | Requires more resources than simple Cron jobs. |
 | **Ingestion** | **Python (ELT)** | Pandas/SQLAlchemy handles mixed date formats and non-standard strings more flexibly than pure SQL. | `to_sql` is less efficient for massive datasets (GB+) compared to bulk loading. |
 | **Storage**| **PostgreSQL** | A rock-solid, reliable database and dbt friendly. | Reaches limits when data scales to petabytes. |
 | **Transformation**| **dbt** | Supports modular SQL, automated documentation, and built-in testing. | Not ideal for non-SQL complex procedural logic. |
