@@ -85,4 +85,4 @@ FROM joined j
 LEFT JOIN {{ ref('dim_campaign') }} d
   on j.campaign_id = d.campaign_id
  and j.platform = d.platform
-WHERE j.campaign_id <> 'organic'
+

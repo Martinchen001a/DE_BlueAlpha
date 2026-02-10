@@ -5,6 +5,7 @@
 select
     order_date,
     campaign_id,
+    platform,
 
     orders_cnt,
     customers_cnt,
